@@ -212,10 +212,6 @@ Contributions are welcome! Here's how you can help:
 - Documentation improvements
 - Bug fixes
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
 - Built with Python's powerful libraries: pandas, matplotlib, seaborn
@@ -229,16 +225,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Project:** Cybersecurity Research & Development
 
 For issues, questions, or suggestions, please open an issue on GitHub.
-
----
-
-## 📚 Documentation
-
-For detailed documentation, see [Log Analyzer Documentation](docs/log_analyzer_documentation.pdf)
-
-## ⭐ Star History
-
-If you find this project useful, please consider giving it a star ⭐
 
 ---
 
