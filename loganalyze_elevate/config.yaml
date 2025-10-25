@@ -1,0 +1,29 @@
+# Log Analyzer Configuration
+
+# Detection thresholds
+detection:
+  brute_force:
+    window_minutes: 5
+    threshold: 5
+
+  dos:
+    window_seconds: 60
+    threshold: 10
+
+# Scoring weights
+scoring:
+  blacklist_hits_weight: 10
+  failed_attempts_weight: 5
+  attack_types_weight: 3
+  rpm_weight: 2
+
+# Output settings
+output:
+  directory: "./output"
+  timestamp_format: "%Y%m%d_%H%M%S"
+
+# Visualization
+visualization:
+  dpi: 300
+  style: "whitegrid"
+  top_attackers_count: 10
