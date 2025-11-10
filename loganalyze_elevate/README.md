@@ -21,17 +21,6 @@ A powerful Python-based security tool that detects and analyzes suspicious patte
 
 ## 🚀 Quick Start
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/log-analyzer.git
-cd log-analyzer
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
 ### Basic Usage
 
 ```bash
@@ -194,23 +183,6 @@ Run tests:
 python main.py -f tests/sample_logs/apache_access.log -t apache --visualize
 python main.py -f tests/sample_logs/ssh_auth.log -t ssh --visualize
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Areas for Contribution
-- Additional log format parsers (Nginx, IIS, etc.)
-- New detection algorithms
-- Performance optimizations
-- Documentation improvements
-- Bug fixes
 
 ## 🙏 Acknowledgments
 
